@@ -16,7 +16,7 @@ html {
     margin:0;
     padding: 0;
     list-style-type: none;
-    background-color: #css;
+    background-color: #ccc;
 }
 
 .nav li {
@@ -36,5 +36,21 @@ html {
     
     .nav li {
         display: inline-block;
+        border: 0;
     }
+}
+
+@media only screen and (min-width: 50em) {
+    
+    .nav {
+        float: left;
+        width: 30%;
+    }
+
+
+    .nav li {
+        display: block;
+        border-top: 1px solid #666;
+    }
+    
 }
